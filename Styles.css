@@ -1,0 +1,167 @@
+body {
+    background-color: rgb(121, 127, 128);
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+    Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+h1 {
+    color: aquamarine;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.avatar{
+    width: 250px;
+    height: auto;
+    height: auto;
+    max-width: 100%;
+    flex-shrink: 0;
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+.info {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+@media (max-width: 700px){
+    .info {
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: aquamarine;
+    margin: 5px;
+}
+
+.container{
+    max-width: 75%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/*.social { 
+    background-color: darkcyan;
+    margin: 5px;
+    border: 5px solid black;
+    padding: 10px;
+} */
+
+.bg-blue {
+    background: rgb(147, 213, 213);
+}
+
+.bg-violet {
+    background: rgb(199, 167, 235);
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: rgb(73, 73, 73);
+    margin-bottom: 5px;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: aqua;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #ffffff;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: aquamarine;
+  opacity: 1;
+}
+
+.btn {
+    background: rgb(199, 167, 235);
+    padding: 10px;
+    color: black;
+    border: 2px solid;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Position */
+
+/* .position {
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+}
+
+.box {
+    position: ;
+    width: 50px;
+    height: 50px;
+    background: chocolate;
+} */
